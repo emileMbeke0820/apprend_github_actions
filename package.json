@@ -4,11 +4,12 @@
   "description": "tester CI/CD",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jest"
   },
   "author": "Emile Mbeke",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.7.0",
     "mocha": "^10.2.0"
   }
 }
